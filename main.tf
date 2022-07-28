@@ -35,7 +35,12 @@ METADATA
 		"metadata": {
 			"displayName": "Domain Name (FQDN)",
 			"description": "The fully qualified domain name (FQDN) that the Windows machines should be joined to"
-        }
+		},
+		"allowedValues": [
+			"domainname.com"
+		],
+		"defaultValue": "domainname.com"
+
 	}
 }
 PARAMETERS
